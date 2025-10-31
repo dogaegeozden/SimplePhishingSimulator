@@ -1,17 +1,21 @@
-# Build container
+# Docker Image
+https://hub.docker.com/repository/docker/celtic6057/simplephishingsimulator/general
+
+## Build container
 docker build -t simplephishingsimulator:latest .
 
-# Start container
+## Start container
 docker run --name simplephishingsimulator -d -p 5000:5000 --rm simplephishingsimulator:latest
 
-# Stop container
+## Stop container
 docker stop simplephishingsimulator
 
-# List running containers
+## List running containers
 docker ps
-# See working dir & contents
+
+## See working dir & contents
 docker exec -it <container_id> sh -c 'pwd; ls -la'
 
-# Read file (adjust path if needed)
+## Read file (adjust path if needed)
 docker exec -it <container_id> sh -c 'cat events.log'
 docker exec -it <container_id> sh -c 'tail -n 100 events.log'
