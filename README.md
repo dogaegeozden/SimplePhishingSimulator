@@ -1,5 +1,5 @@
 # Simple Phishing Simulator
-![AppSc](https://raw.githubusercontent.com/dogaegeozden/SimplePhishingSimulator/main/scs/image1.png.png)
+![AppSc](https://raw.githubusercontent.com/dogaegeozden/SimplePhishingSimulator/main/scs/image1.png)
 
 # Docker Image
 
